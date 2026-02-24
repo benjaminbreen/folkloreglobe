@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestural Folklore Globe</title>
+  <meta name="description" content="Explore protective gestures and superstitions across cultures on an interactive 3D globe">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://unpkg.com/topojson@3"></script>
+</head>
+<body role="application" aria-label="Interactive folklore globe visualization">
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-content">
+        <h1 class="title">Gestural Folklore Globe</h1>
+        <p class="subtitle">
+          Vibe coded specifically for this <a href="https://resobscura.substack.com/p/neolithic-habits-machine-age-tools" target="_blank" rel="noopener">Res Obscura post</a> about the deep history of gesture
+        </p>
+      </div>
+
+      <!-- Dataset Selector -->
+      <div class="dataset-selector" role="navigation" aria-label="Dataset selection">
+        <div class="dataset-buttons" id="dataset-buttons" role="group" aria-label="Dataset options">
+          <!-- Buttons will be populated by JavaScript -->
+        </div>
+        <div class="dataset-info" aria-live="polite" aria-atomic="true">
+          <span id="current-dataset-description">Loading...</span>
+          <span class="tradition-count">
+            <span id="tradition-count">0</span> locations
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Globe Container -->
+    <div class="globe-wrapper">
+      <div class="globe-container" role="region" aria-label="Interactive 3D globe visualization">
+        <svg id="globe" role="img" aria-label="3D globe showing folklore tradition locations"></svg>
+
+        <!-- Tooltip -->
+        <div id="marker-tooltip" class="marker-tooltip hidden" role="tooltip" aria-hidden="true">
+          <div class="tooltip-name"></div>
+          <div class="tooltip-phrase"></div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls" role="toolbar" aria-label="Globe controls">
+          <button id="reset-view" class="control-btn" title="Reset view" aria-label="Reset globe view to initial position">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"/>
+              <path d="M21 3v5h-5"/>
+            </svg>
+            <span>Reset</span>
+          </button>
+          <button id="zoom-in" class="control-btn icon-only" title="Zoom in" aria-label="Zoom in on globe">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+              <line x1="11" y1="8" x2="11" y2="14"/>
+              <line x1="8" y1="11" x2="14" y2="11"/>
+            </svg>
+          </button>
+          <button id="zoom-out" class="control-btn icon-only" title="Zoom out" aria-label="Zoom out on globe">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="11" cy="11" r="8"/>
+              <path d="m21 21-4.35-4.35"/>
+              <line x1="8" y1="11" x2="14" y2="11"/>
+            </svg>
+          </button>
+          <button id="toggle-labels" class="control-btn icon-only" title="Toggle all labels" aria-label="Show or hide all location labels" aria-pressed="false">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Legend -->
+        <div class="legend" role="complementary" aria-label="Map legend">
+          <h3 class="legend-title">Types</h3>
+          <div class="legend-items" id="legend-items" role="list">
+            <!-- Legend items will be populated by JavaScript -->
+          </div>
+        </div>
+
+        <!-- Instructions overlay -->
+        <div class="instructions" id="instructions" role="complementary" aria-label="Instructions and information">
+          <button class="instructions-close" id="instructions-close" aria-label="Close instructions" title="Close">&times;</button>
+          <div class="instructions-content">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 16v-4"/>
+              <path d="M12 8h.01"/>
+            </svg>
+            <p id="instructions-text">Click on any marker to learn more</p>
+            <p id="instructions-citation" class="instructions-citation" style="display: none;"></p>
+          </div>
+
+          <!-- Wikipedia Section -->
+          <div id="wiki-section" class="wiki-section">
+            <div id="wiki-header" class="wiki-header" role="button" aria-expanded="false" tabindex="0">
+              <h3 class="section-title">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="wiki-icon" aria-hidden="true">
+                  <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                  <path d="M2 17l10 5 10-5"/>
+                  <path d="M2 12l10 5 10-5"/>
+                </svg>
+                Wikipedia
+              </h3>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="wiki-chevron" aria-hidden="true">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </div>
+            <div id="wiki-content" class="wiki-content" role="region" aria-labelledby="wiki-header">
+              <!-- Wikipedia content will be loaded here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Info Panel -->
+    <div id="info-panel" class="info-panel hidden" role="dialog" aria-modal="true" aria-labelledby="info-country">
+      <button class="close-btn" aria-label="Close tradition details">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+
+      <div class="info-content" role="document">
+        <div class="info-header">
+          <div class="info-icon" id="info-icon">🪵</div>
+          <h2 id="info-country" class="info-country"></h2>
+        </div>
+
+        <div class="phrase-card">
+          <div class="phrase-label">Local Phrase</div>
+          <div id="info-phrase" class="phrase-text"></div>
+        </div>
+
+        <div class="info-section">
+          <h3 class="section-title">How It Works</h3>
+          <p id="info-description" class="section-text"></p>
+        </div>
+
+        <div class="google-books-section">
+          <a id="google-books-link" href="#" target="_blank" rel="noopener" class="google-books-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+            Search Google Books for references
+          </a>
+        </div>
+
+        <div class="info-footer">
+          <div class="source-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+            </svg>
+            <span id="info-source">Source</span>
+          </div>
+          <div id="info-citation" class="citation-link" style="display: none;">
+            <!-- Citation link will be populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+      <p class="footer-note">
+        Drag to rotate • Scroll to zoom • Click markers for details
+      </p>
+
+      <div class="footer-sections">
+        <div class="footer-section">
+          <h4>Credits</h4>
+          <p>
+            Vibe coded by <a href="https://www.anthropic.com/claude" target="_blank" rel="noopener">Claude Sonnet 4.5</a>
+            with instructions from <a href="https://benjaminpbreen.com" target="_blank" rel="noopener">Benjamin Breen</a>
+          </p>
+          <p>
+            Built with
+            <a href="https://github.com/d3/d3" target="_blank" rel="noopener">D3.js</a>,
+            <a href="https://github.com/topojson/topojson" target="_blank" rel="noopener">TopoJSON</a>,
+            and the <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank" rel="noopener">Wikipedia API</a>
+          </p>
+          <p>
+            Map data from <a href="https://github.com/topojson/world-atlas" target="_blank" rel="noopener">World Atlas</a> via
+            <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener">Natural Earth</a>
+          </p>
+        </div>
+
+        <div class="footer-section">
+          <h4>Further Reading</h4>
+          <p>
+            <a href="https://en.wikipedia.org/wiki/Knocking_on_wood" target="_blank" rel="noopener">Wikipedia: Knocking on wood</a><br>
+            <a href="https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.12124" target="_blank" rel="noopener">Schiefenhövel (2013): Left/Right Bias Study</a><br>
+            <a href="https://resobscura.substack.com" target="_blank" rel="noopener">Res Obscura</a> - History newsletter by Benjamin Breen
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <button id="about-btn" class="footer-link-btn" aria-label="Open about and methodology information">About & Methodology</button>
+      </div>
+    </footer>
+
+    <!-- About Modal -->
+    <div id="about-modal" class="about-modal hidden" role="dialog" aria-modal="true" aria-labelledby="about-title">
+      <div class="about-modal-content">
+        <button class="close-btn" aria-label="Close about modal">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <line x1="18" y1="6" x2="6" y2="18"/>
+            <line x1="6" y1="6" x2="18" y2="18"/>
+          </svg>
+        </button>
+
+        <div class="about-content">
+          <h2 id="about-title">About Gestural Folklore Globe</h2>
+
+          <section class="about-section">
+            <h3>Project Overview</h3>
+            <p>
+              The Gestural Folklore Globe is an interactive visualization exploring protective gestures and superstitions
+              across cultures and time periods. This project maps the geographic distribution of folk traditions like
+              knocking on wood, the mano fico (fig sign), the mano cornuta (horn gesture), and linguistic biases
+              associating left with negative and right with positive.
+            </p>
+            <p>
+              Created by <a href="https://benjaminpbreen.com" target="_blank" rel="noopener">Benjamin Breen</a> as part of
+              the <a href="https://resobscura.substack.com" target="_blank" rel="noopener">Res Obscura</a> project,
+              this visualization aims to reveal patterns in how human cultures develop similar protective rituals
+              and symbolic associations across vast distances and time spans.
+            </p>
+          </section>
+
+          <section class="about-section">
+            <h3>Data & Methodology</h3>
+            <h4>Sources</h4>
+            <p>
+              The data for this visualization has been compiled from multiple sources including:
+            </p>
+            <ul>
+              <li>Ethnographic studies and folklore archives</li>
+              <li>Academic papers on gesture and superstition (particularly Schiefenhövel 2013 for left/right bias)</li>
+              <li>Historical texts and travelogues documenting local customs</li>
+              <li>Wikipedia and other encyclopedic sources for contemporary practices</li>
+              <li>Field reports from anthropologists and folklorists</li>
+            </ul>
+
+            <h4>Data Collection Process</h4>
+            <p>
+              Each tradition entry includes:
+            </p>
+            <ul>
+              <li><strong>Location:</strong> Geographic coordinates for where the tradition is documented</li>
+              <li><strong>Local Phrase:</strong> The vernacular term or phrase used for the gesture/superstition</li>
+              <li><strong>Description:</strong> How the tradition works and its cultural context</li>
+              <li><strong>Type/Category:</strong> Classification based on the gesture type or cultural pattern</li>
+              <li><strong>Source Attribution:</strong> Primary sources for verification</li>
+            </ul>
+
+            <h4>Limitations & Caveats</h4>
+            <p>
+              This visualization represents documented traditions and should not be considered exhaustive.
+              Many oral traditions and local practices may not be represented due to:
+            </p>
+            <ul>
+              <li>Limited ethnographic documentation in some regions</li>
+              <li>Language barriers in accessing primary sources</li>
+              <li>The ephemeral nature of folk practices that change over time</li>
+              <li>Colonial and Western bias in historical documentation</li>
+            </ul>
+            <p>
+              The geographic points represent approximate locations where traditions have been documented,
+              not definitive boundaries of cultural practices.
+            </p>
+          </section>
+
+          <section class="about-section">
+            <h3>How to Use</h3>
+            <ul>
+              <li><strong>Navigate:</strong> Drag to rotate the globe, scroll to zoom</li>
+              <li><strong>Explore Datasets:</strong> Switch between different tradition types using the buttons at the top</li>
+              <li><strong>Learn More:</strong> Click any marker to see details about that specific tradition</li>
+              <li><strong>Research:</strong> Use the Google Books search to find academic references</li>
+              <li><strong>Context:</strong> Expand the Wikipedia section for broader cultural context</li>
+            </ul>
+          </section>
+
+          <section class="about-section">
+            <h3>Technical Details</h3>
+            <p>
+              Built with D3.js for globe rendering, TopoJSON for geographic data, and the Wikipedia API
+              for contextual information. The visualization uses an orthographic projection to create
+              a rotatable 3D globe effect in the browser.
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

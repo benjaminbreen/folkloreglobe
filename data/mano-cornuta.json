@@ -1,0 +1,236 @@
+[
+  {
+    "name": "Naples, Italy",
+    "lat": 40.85,
+    "lng": 14.26,
+    "phrase": "corna, fare le corna",
+    "description": "Extremely strong tradition in Naples. Fingers down = protection against malocchio (evil eye). Small horn pendants hung in cars and homes. Coral horns especially prized. Part of daily life and serious belief system.",
+    "source": "Mediterranean folk tradition research",
+    "type": "strong-protective"
+  },
+  {
+    "name": "Sicily, Italy",
+    "lat": 37.5,
+    "lng": 14.0,
+    "phrase": "manu curnuta, corna",
+    "description": "Particularly powerful tradition in Sicily. Horns worn as necklaces, displayed in homes. Believed to immediately draw evil gaze and blind it. Ancient pre-Christian origins. Both gesture and physical amulets widely used.",
+    "source": "Sicilian folk tradition",
+    "type": "strong-protective"
+  },
+  {
+    "name": "Calabria, Italy",
+    "lat": 39.3,
+    "lng": 16.25,
+    "phrase": "corna",
+    "description": "Deep-rooted tradition of horn amulets and gestures. Often worn as jewelry. Horns point down for protection, up for insult. Associated with ancient fertility and animal power beliefs.",
+    "source": "Southern Italian tradition",
+    "type": "strong-protective"
+  },
+  {
+    "name": "Rome, Italy",
+    "lat": 41.9,
+    "lng": 12.5,
+    "phrase": "fare le corna",
+    "description": "Used throughout Lazio region. Gesture made when discussing bad luck or misfortune. Fingers pointing down = warding off evil. Fingers up = accusation of infidelity ('cornuto' = cuckold).",
+    "source": "Central Italian tradition",
+    "type": "moderate-protective"
+  },
+  {
+    "name": "Tuscany, Italy",
+    "lat": 43.77,
+    "lng": 11.26,
+    "phrase": "fare le corna",
+    "description": "Common protective gesture. Used when mentioning death, illness, or bad luck. Less intense than southern Italian practice but still widespread.",
+    "source": "Tuscan tradition",
+    "type": "moderate-protective"
+  },
+  {
+    "name": "Sardinia, Italy",
+    "lat": 40.1,
+    "lng": 9.0,
+    "phrase": "corros, cornos",
+    "description": "Ancient tradition with pre-Christian Nuragic roots. Horn amulets found in archaeological sites. Still used for protection against evil eye and general misfortune.",
+    "source": "Sardinian folk tradition",
+    "type": "strong-protective"
+  },
+  {
+    "name": "Corsica, France",
+    "lat": 42.0,
+    "lng": 9.0,
+    "phrase": "corna",
+    "description": "Strong Corsican tradition influenced by Italian culture. Horned hand amulets common. Small blessings tradition documented. Protection against bad luck and envy.",
+    "source": "Corsican tradition (Oxford Pitt Rivers Museum)",
+    "type": "strong-protective"
+  },
+  {
+    "name": "Malta",
+    "lat": 35.9,
+    "lng": 14.5,
+    "phrase": "qrun, il-qarn",
+    "description": "Mediterranean island tradition. Horn charms worn for protection. Influenced by Italian and ancient Phoenician beliefs. Often combined with eye beads.",
+    "source": "Maltese folk tradition",
+    "type": "moderate-protective"
+  },
+  {
+    "name": "Ancient Greece",
+    "lat": 37.98,
+    "lng": 23.73,
+    "phrase": "κέρατα (kerata)",
+    "description": "Ancient protective gesture documented in classical antiquity. Used against evil spirits and malevolent forces. Belief that horns had divine protective power. Origin of later Mediterranean traditions.",
+    "source": "Ancient Greek tradition",
+    "type": "ancient-origin"
+  },
+  {
+    "name": "Modern Greece",
+    "lat": 37.98,
+    "lng": 23.73,
+    "phrase": "κέρατα (kerata)",
+    "description": "Continuation of ancient tradition. Used to ward off evil eye ('mati'). Gesture made when discussing misfortune. Often combined with spitting 'ftou ftou'.",
+    "source": "Modern Greek folk tradition",
+    "type": "moderate-protective"
+  },
+  {
+    "name": "Cyprus",
+    "lat": 35.1,
+    "lng": 33.4,
+    "phrase": "κέρατα (kerata)",
+    "description": "Strong Mediterranean tradition. Protection against evil eye especially important. Both Greek and Turkish Cypriot communities use similar protective gestures.",
+    "source": "Cypriot tradition",
+    "type": "moderate-protective"
+  },
+  {
+    "name": "Crete, Greece",
+    "lat": 35.3,
+    "lng": 25.1,
+    "phrase": "κέρατα (kerata)",
+    "description": "Ancient Minoan roots. Archaeological evidence of horn-shaped amulets from Bronze Age. Continuous tradition of protective horn gestures and symbols.",
+    "source": "Cretan tradition",
+    "type": "ancient-continuous"
+  },
+  {
+    "name": "Andalusia, Spain",
+    "lat": 37.4,
+    "lng": -5.9,
+    "phrase": "cuernos",
+    "description": "Southern Spanish tradition with Mediterranean and Moorish influences. Used against 'mal de ojo' (evil eye). Less widespread than in Italy but still present in traditional communities.",
+    "source": "Andalusian tradition",
+    "type": "moderate-protective"
+  },
+  {
+    "name": "Basque Country",
+    "lat": 43.0,
+    "lng": -2.5,
+    "phrase": "adarrak",
+    "description": "Ancient pre-Roman tradition. Horns associated with protective animal spirits. Both gesture and amulets used. Part of broader system of protective folk magic.",
+    "source": "Basque folk tradition",
+    "type": "ancient-animistic"
+  },
+  {
+    "name": "Portugal",
+    "lat": 38.7,
+    "lng": -9.1,
+    "phrase": "cornos",
+    "description": "Used against 'mau-olhado' (evil eye). Less common than in Mediterranean but present in traditional rural communities. Often combined with Catholic protective practices.",
+    "source": "Portuguese tradition",
+    "type": "weak-syncretistic"
+  },
+  {
+    "name": "Buenos Aires, Argentina",
+    "lat": -34.6,
+    "lng": -58.4,
+    "phrase": "cuernos, hacer cuernos",
+    "description": "Brought by Italian immigrants (especially from Naples and Sicily). Still used in Italian-Argentine communities. Protective gesture against 'mal de ojo' and general bad luck.",
+    "source": "Italian diaspora tradition",
+    "type": "diaspora-moderate"
+  },
+  {
+    "name": "São Paulo, Brazil",
+    "lat": -23.5,
+    "lng": -46.6,
+    "phrase": "chifres, fazer chifres",
+    "description": "Italian immigrant tradition, especially strong in Italian neighborhoods. Used by Italian-Brazilian families. Often worn as small gold or coral pendants.",
+    "source": "Italian diaspora tradition",
+    "type": "diaspora-moderate"
+  },
+  {
+    "name": "New York/New Jersey, USA",
+    "lat": 40.7,
+    "lng": -74.0,
+    "phrase": "making the horns, cornicello",
+    "description": "Strong Italian-American tradition. 'Cornicello' (little horn) pendants worn for luck. Gesture used to ward off evil eye. Featured prominently in Italian-American culture and media.",
+    "source": "Italian-American tradition",
+    "type": "diaspora-strong"
+  },
+  {
+    "name": "Montreal, Canada",
+    "lat": 45.5,
+    "lng": -73.6,
+    "phrase": "faire les cornes",
+    "description": "Italian immigrant communities maintain tradition. Used in 'Little Italy' neighborhoods. Both gesture and horn amulets still seen, though declining with younger generations.",
+    "source": "Italian diaspora tradition",
+    "type": "diaspora-weak"
+  },
+  {
+    "name": "Ancient Rome",
+    "lat": 41.9,
+    "lng": 12.5,
+    "phrase": "manu cornuta",
+    "description": "Ancient Roman protective gesture. Archaeological evidence from Pompeii, Herculaneum. Used alongside fascinus (phallic amulets) as protection. Belief in animal horns' divine protective power dates to pre-Roman Italy.",
+    "source": "Roman antiquity",
+    "type": "ancient-origin"
+  },
+  {
+    "name": "Pompeii/Herculaneum",
+    "lat": 40.75,
+    "lng": 14.5,
+    "phrase": "manu cornuta",
+    "description": "Extensive archaeological evidence of horn symbols and amulets. Carvings, mosaics, and physical amulets preserved by volcanic eruption. Shows central role in Roman protective magic.",
+    "source": "Archaeological evidence, 79 CE",
+    "type": "ancient-archaeological"
+  },
+  {
+    "name": "Leptis Magna, Libya",
+    "lat": 32.6,
+    "lng": 14.3,
+    "phrase": "manu cornuta",
+    "description": "Multiple relief sculptures showing horn gestures. Evidence of spread throughout Roman Empire. North African adoption of Roman protective traditions.",
+    "source": "Roman colonial tradition",
+    "type": "ancient-archaeological"
+  },
+  {
+    "name": "Hadrian's Wall, England",
+    "lat": 55.0,
+    "lng": -2.3,
+    "phrase": "manu cornuta",
+    "description": "Several instances of horn amulets and carvings found along wall. Roman soldiers carried protective amulets throughout Empire. Evidence of belief system's geographic spread.",
+    "source": "Roman military tradition",
+    "type": "ancient-archaeological"
+  },
+  {
+    "name": "Camulodunum (Colchester), England",
+    "lat": 51.9,
+    "lng": 0.9,
+    "phrase": "manu cornuta",
+    "description": "Largest known collection of horn amulets from Roman Britain. Shows importance in Roman military and civilian life. Protection for vulnerable populations (children, soldiers).",
+    "source": "Archaeological evidence",
+    "type": "ancient-archaeological"
+  },
+  {
+    "name": "Ancient Etruria (Tuscany)",
+    "lat": 43.4,
+    "lng": 11.0,
+    "phrase": "manu cornuta",
+    "description": "Pre-Roman Etruscan origins of horn beliefs. Neolithic period evidence of horn symbolism. Belief that animal horns brought fortune and fertility. Foundation for later Roman and Italian traditions.",
+    "source": "Etruscan antiquity",
+    "type": "prehistoric-origin"
+  },
+  {
+    "name": "Turkey (Anatolia)",
+    "lat": 39.0,
+    "lng": 35.0,
+    "phrase": "boynuz, nazar",
+    "description": "Horn-like amulets used alongside evil eye beads. Influenced by ancient Greek, Roman, and Islamic protective traditions. Less emphasis on hand gesture, more on horn-shaped amulets.",
+    "source": "Turkish syncretistic tradition",
+    "type": "weak-amulet"
+  }
+]

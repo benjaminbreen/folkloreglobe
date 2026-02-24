@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Bosnia and Herzegovina / Croatia / Slovenia / Montenegro / Serbia",
+    "lat": 44.0,
+    "lng": 18.0,
+    "phrase": "da kucnem u drvo",
+    "description": "Said after something positive to avoid jinxing it.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Brazil",
+    "lat": -15.8,
+    "lng": -47.9,
+    "phrase": "bater na madeira",
+    "description": "Three knocks after mentioning a bad possibility.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Portugal",
+    "lat": 38.7,
+    "lng": -9.1,
+    "phrase": "bater na madeira",
+    "description": "Three knocks, no verbalization required.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Bulgaria",
+    "lat": 42.7,
+    "lng": 23.3,
+    "phrase": "чукам на дърво (chukam na dǎrvo)",
+    "description": "Used to ward off evil; sometimes followed by pulling the earlobe.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Czech Republic",
+    "lat": 50.1,
+    "lng": 14.4,
+    "phrase": "Musím to zaklepat",
+    "description": "Knock on wood, glass, teeth, even forehead.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "mixed"
+  },
+  {
+    "name": "Denmark",
+    "lat": 55.7,
+    "lng": 12.6,
+    "phrase": "7, 9, 13",
+    "description": "Often with knocking under the table; magic numbers.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Egypt",
+    "lat": 30.0,
+    "lng": 31.2,
+    "phrase": "إمسك الخشب (emsek el-khashab)",
+    "description": "Said to keep good luck going and prevent envy.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "England (UK)",
+    "lat": 51.5,
+    "lng": -0.1,
+    "phrase": "touch wood",
+    "description": "Modern British usage; continuity of good luck.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Georgia",
+    "lat": 41.7,
+    "lng": 44.8,
+    "phrase": "ხეზე დაკაკუნება",
+    "description": "Three knocks when mentioning a bad possibility.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Germany",
+    "lat": 52.5,
+    "lng": 13.4,
+    "phrase": "dreimal Holz",
+    "description": "Knock three times on wood.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Greece / Cyprus",
+    "lat": 37.9,
+    "lng": 23.7,
+    "phrase": "χτύπα ξύλο",
+    "description": "Said to prevent a spoken negative from happening.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Indonesia / Malaysia / Thailand",
+    "lat": 3.1,
+    "lng": 101.7,
+    "phrase": "amit-amit / choi",
+    "description": "Knock on wood and sometimes forehead to ward off bad talk.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Iran",
+    "lat": 35.7,
+    "lng": 51.4,
+    "phrase": "بزنم به تخته",
+    "description": "To prevent the evil eye after praising someone/something.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Italy",
+    "lat": 41.9,
+    "lng": 12.5,
+    "phrase": "tocca ferro",
+    "description": "Touch iron, especially about death-related bad luck.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "iron"
+  },
+  {
+    "name": "Catalonia",
+    "lat": 41.4,
+    "lng": 2.1,
+    "phrase": "tocar ferro",
+    "description": "Protection against bad luck.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "iron"
+  },
+  {
+    "name": "Latin America (general)",
+    "lat": 19.4,
+    "lng": -99.1,
+    "phrase": "tocar madera",
+    "description": "Touch wood; variant excludes objects with legs.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Argentina",
+    "lat": -34.6,
+    "lng": -58.4,
+    "phrase": "tocar madera",
+    "description": "Also symbolic left-side tapping (gendered).",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "mixed"
+  },
+  {
+    "name": "Lebanon / Syria",
+    "lat": 33.9,
+    "lng": 35.5,
+    "phrase": "دقّ عالخشب",
+    "description": "Said after positives or negatives to prevent change.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Netherlands",
+    "lat": 52.4,
+    "lng": 4.9,
+    "phrase": "afkloppen",
+    "description": "Knock on unpainted wood.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Norway",
+    "lat": 59.9,
+    "lng": 10.7,
+    "phrase": "bank i bordet",
+    "description": "Knock on the table.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Poland",
+    "lat": 52.2,
+    "lng": 21.0,
+    "phrase": "odpukać w niemalowane drewno",
+    "description": "Knock on unpainted wood, mostly after negatives.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Romania",
+    "lat": 44.4,
+    "lng": 26.1,
+    "phrase": "a bate în lemn",
+    "description": "Knock on wood to avoid bad outcomes.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Spain",
+    "lat": 40.4,
+    "lng": -3.7,
+    "phrase": "tocar madera",
+    "description": "Said to keep good situations going.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "France",
+    "lat": 48.9,
+    "lng": 2.4,
+    "phrase": "toucher du bois",
+    "description": "To continue good luck.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Sweden",
+    "lat": 59.3,
+    "lng": 18.1,
+    "phrase": "peppar, peppar, ta i trä",
+    "description": "Pepper, pepper, touch wood.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "mixed"
+  },
+  {
+    "name": "Turkey",
+    "lat": 41.0,
+    "lng": 28.9,
+    "phrase": "tahtaya vurmak",
+    "description": "Three knocks, often with earlobe pull, to avert evil eye.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "United States",
+    "lat": 38.9,
+    "lng": -77.0,
+    "phrase": "knock on wood",
+    "description": "Modern apotropaic usage; folk rifle story noted.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  },
+  {
+    "name": "Russia / Ukraine / Estonia",
+    "lat": 55.8,
+    "lng": 37.6,
+    "phrase": "Постучать по дереву",
+    "description": "Knock on wood; sometimes with spitting sound to left.",
+    "source": "Wikipedia: Knocking on wood",
+    "type": "wood"
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "datasets": [
+    {
+      "id": "knocking-wood",
+      "name": "Knocking on Wood",
+      "icon": "🪵",
+      "description": "Traditions of touching or knocking on wood to ward off bad luck",
+      "instructionText": "Click on any marker to discover that region's wood-knocking tradition",
+      "file": "data/knocking-traditions.json",
+      "legend": [
+        { "type": "wood", "label": "Wood knocking", "color": "#10b981" },
+        { "type": "iron", "label": "Iron/Metal touching", "color": "#8b5cf6" },
+        { "type": "mixed", "label": "Mixed variations", "color": "#f59e0b" }
+      ]
+    },
+    {
+      "id": "mano-fico",
+      "name": "Mano Fico",
+      "icon": "👌",
+      "description": "The fig hand gesture used for protection against the evil eye",
+      "instructionText": "Click on any marker to learn about the fig gesture in that region",
+      "file": "data/mano-fico.json",
+      "legend": [
+        { "type": "protective", "label": "Protective gesture", "color": "#3b82f6" },
+        { "type": "historical", "label": "Historical usage", "color": "#a855f7" }
+      ]
+    },
+    {
+      "id": "left-right",
+      "name": "Left/Right Bias",
+      "icon": "👈👉",
+      "description": "Cultural associations of right (positive) vs left (negative) across 50 languages",
+      "instructionText": "Click on any marker to explore left/right linguistic bias in that culture",
+      "citation": {
+        "text": "Schiefenhövel, W. (2013). Biased semantics for right and left in 50 Indo-European and non-Indo-European languages. Annals of the New York Academy of Sciences, 1288(1), 135-152.",
+        "url": "https://nyaspubs.onlinelibrary.wiley.com/doi/full/10.1111/nyas.12124"
+      },
+      "file": "data/left-right-bias.json",
+      "legend": [
+        { "type": "strong-negative", "label": "Strong negative bias", "color": "#dc2626" },
+        { "type": "moderate-negative", "label": "Moderate negative bias", "color": "#f97316" },
+        { "type": "euphemistic", "label": "Euphemistic substitution", "color": "#10b981" },
+        { "type": "cosmological-dualism", "label": "Cosmological dualism", "color": "#8b5cf6" },
+        { "type": "hierarchical", "label": "Hierarchical / status-based", "color": "#3b82f6" },
+        { "type": "positive-right-only", "label": "Positive right, neutral left", "color": "#94a3b8" }
+      ]
+    },
+    {
+      "id": "mano-cornuta",
+      "name": "Mano Cornuta (Horns)",
+      "icon": "🤘",
+      "description": "The horn gesture for protection against the evil eye across Mediterranean & diaspora",
+      "file": "data/mano-cornuta.json",
+      "legend": [
+        { "type": "strong-protective", "label": "Strong living tradition", "color": "#dc2626" },
+        { "type": "moderate-protective", "label": "Moderate tradition", "color": "#f97316" },
+        { "type": "weak-protective", "label": "Weak/declining", "color": "#fbbf24" },
+        { "type": "diaspora-strong", "label": "Strong diaspora tradition", "color": "#8b5cf6" },
+        { "type": "diaspora-moderate", "label": "Moderate diaspora", "color": "#a855f7" },
+        { "type": "diaspora-weak", "label": "Weak diaspora", "color": "#c084fc" },
+        { "type": "ancient-origin", "label": "Ancient origin site", "color": "#0ea5e9" },
+        { "type": "ancient-archaeological", "label": "Archaeological evidence", "color": "#06b6d4" },
+        { "type": "ancient-continuous", "label": "Ancient to modern", "color": "#14b8a6" },
+        { "type": "prehistoric-origin", "label": "Prehistoric origins", "color": "#059669" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "folklore-globe",
+  "version": "1.0.0",
+  "description": "Interactive 3D globe visualization of wood-knocking traditions around the world",
+  "main": "index.html",
+  "scripts": {
+ "dev": "npx serve .",
+  "start": "npx serve .",
+    "deploy": "vercel"
+  },
+  "keywords": [
+    "d3",
+    "globe",
+    "visualization",
+    "folklore",
+    "traditions",
+    "interactive",
+    "geography"
+  ],
+  "author": "Benjamin Breen",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminbreen/folkloreglobe.git"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/benjaminbreen/folkloreglobe/issues"
+  },
+  "homepage": "https://github.com/benjaminbreen/folkloreglobe#readme"
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "Italy",
+    "lat": 41.9,
+    "lng": 12.5,
+    "phrase": "destro / sinistro",
+    "description": "Right (destro) = dexterous, correct, 'the law'. Left (sinistro) = sinister, eerie, unlucky. 'Mancino' (left-hander) derives from 'mancus' (maimed). 'Pede manco' = to start the day badly.",
+    "source": "Schiefenhövel 2013, Annals of the New York Academy of Sciences",
+    "type": "strong-negative"
+  },
+  {
+    "name": "France",
+    "lat": 48.9,
+    "lng": 2.4,
+    "phrase": "droit / gauche",
+    "description": "Right (droit) = straight, upright, honorable, 'the law', entitled. Left (gauche) = awkward, clumsy, ponderous. 'Se lever du pied gauche' = to get up on wrong side of bed. 'Passer l'arme à gauche' = to die.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Spain",
+    "lat": 40.4,
+    "lng": -3.7,
+    "phrase": "derecho / izquierdo",
+    "description": "Right (derecho) = good, straight, correct, 'the law'. Left (izquierdo, from Basque) = failure. 'José es un cero a la izquierda' = José is a complete failure. But 'zurdo' (lefty) in 'no ser zurdo' = to be clever.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Germany",
+    "lat": 52.5,
+    "lng": 13.4,
+    "phrase": "rechts / links",
+    "description": "Right (rechts) = correct, 'the law', 'heart on right side' = good person. Left (links) = wrong, questionable, untrustworthy. 'Jemanden linken' = to deceive. 'Linkisch' = clumsy. 'Mit dem linken Bein aufstehen' = bad day/luck.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Russia",
+    "lat": 55.8,
+    "lng": 37.6,
+    "phrase": "правый / левый (praviy / leviy)",
+    "description": "Right (praviy) = correct, good, 'the truth' (prawda), justice. Left (leviy) = untrustworthy. 'Hodit' nalevo' = to have extramarital affair. 'Levhsa' = sneaky person. Left-hander (liewshá) = untrustworthy.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "England (UK)",
+    "lat": 51.5,
+    "lng": -0.1,
+    "phrase": "right / left",
+    "description": "Right = correct, 'the law', entitlement. Left (Old English 'lyft' = weak, worthless) = wrong, weak. 'Out in left field' = completely mistaken. Historical: 88 different dialect words for 'left-handed', mostly uncomplimentary. 'Cack-handed' = from excrement.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Czech Republic",
+    "lat": 50.1,
+    "lng": 14.4,
+    "phrase": "vpravo / levy",
+    "description": "Right (vpravo) = correct, 'the law', truth. 'Máš pravdu' = you are right. Left (levy) = wrong direction. 'Levák' = left-hander, untrustworthy person. 'Levota' = foul trick.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Basque Country",
+    "lat": 43.0,
+    "lng": -2.5,
+    "phrase": "esku on / ezker",
+    "description": "Right (esku on) = 'the good hand', correct. Left (ezker) = 'the crooked/lopsided hand'. 'Ezkerreko haur' = bastard. 'Ezkerreko begiz' = with hate. Spanish 'izquierda' borrowed from Basque 'ezker'!",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Hungary",
+    "lat": 47.5,
+    "lng": 19.0,
+    "phrase": "jobb / bal",
+    "description": "Right (jobb) = good, best, honorable, valid law. Left (bal) = bad luck, disaster, clumsy. 'Bal lábbal kelt fel' = to get up with left foot (bad start). 'Balszerencse' = misfortune.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Finland",
+    "lat": 60.2,
+    "lng": 24.9,
+    "phrase": "oikea / vasen",
+    "description": "Right (oikea) = direct, straight, honest, correct, entitled, 'the law'. 'Olla oikeassa' = to be right. Left (vasen) = faulty, defective, dishonest, bad.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Turkey",
+    "lat": 41.0,
+    "lng": 28.9,
+    "phrase": "sağ / sol",
+    "description": "Right (sağ) = alive, lively, health, 'the law'. Left (sol) = (no specific negative associations recorded in source).",
+    "source": "Schiefenhövel 2013",
+    "type": "positive-right-only"
+  },
+  {
+    "name": "Ancient Hebrew",
+    "lat": 31.8,
+    "lng": 35.2,
+    "phrase": "yamin / semol",
+    "description": "Right (yamin) = strong, dexterous, correct, south. Kabbalah: mercy, kindness, grace. Left (semol, etymology: 'wrapped', 'dark') = Kabbalah: courage, bravery, smartness. Tefilin worn on weaker (usually left) arm.",
+    "source": "Schiefenhövel 2013",
+    "type": "positive-right-only"
+  },
+  {
+    "name": "Arabic World",
+    "lat": 24.5,
+    "lng": 45.0,
+    "phrase": "yaman / samal",
+    "description": "Right (yaman) = lucky, south, the right hand. Left (samal/simal) = unlucky, the left hand.",
+    "source": "Schiefenhövel 2013",
+    "type": "moderate-negative"
+  },
+  {
+    "name": "China",
+    "lat": 39.9,
+    "lng": 116.4,
+    "phrase": "右 / 左 (yòu / zuǒ)",
+    "description": "Right (右) = hierarchically higher. 'Nobody can stand more on the right' = unsurpassable. Emperor's right-side servants had higher status. At weddings, respected persons sit on right. Left (左) = sometimes 'dark side'. Cantonese associates evil with 'left'.",
+    "source": "Schiefenhövel 2013",
+    "type": "hierarchical"
+  },
+  {
+    "name": "Japan",
+    "lat": 35.7,
+    "lng": 139.7,
+    "phrase": "右 / 左 (migi / hidari)",
+    "description": "Right (migi) = correct. Left (hidari) = wrong, bad. 'Sasen' = sending to lower position. 'Sado' = wrong road. 'Hidari-mae' = financial troubles.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Korea",
+    "lat": 37.6,
+    "lng": 127.0,
+    "phrase": "오른 / 왼 (oreun / oen)",
+    "description": "Right (oreun) = correct. Left (oen) = wrong, bad.",
+    "source": "Schiefenhövel 2013",
+    "type": "moderate-negative"
+  },
+  {
+    "name": "Indonesia",
+    "lat": -6.2,
+    "lng": 106.8,
+    "phrase": "kanan / kiri",
+    "description": "Right (kanan) = lucky, proper. 'Langkah kanan' = to walk the right way, to be lucky. Left (kiri) = clumsy, unlucky, impolite. 'Kidal' = left-handed, awkward.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Trobriand Islands (PNG)",
+    "lat": -8.5,
+    "lng": 151.0,
+    "phrase": "kakata / kikivama",
+    "description": "Right (kakata) = sharp, correct. Left (kikivama) = to be wrong. 'Tokikivama' = left-hander.",
+    "source": "Schiefenhövel 2013",
+    "type": "moderate-negative"
+  },
+  {
+    "name": "Eipo (West Papua)",
+    "lat": -3.9,
+    "lng": 138.7,
+    "phrase": "sidik / kwanim",
+    "description": "Right (sidik) = correct, proper. 'Saboka sidik' = proper tobacco. Left (kwanim) = 'to roll fibers on thigh' (female work), wrong.",
+    "source": "Schiefenhövel 2013",
+    "type": "cosmological-dualism"
+  },
+  {
+    "name": "Ethiopia (Amharic)",
+    "lat": 9.0,
+    "lng": 38.7,
+    "phrase": "gann / gêra",
+    "description": "Right (gann) = correct, positive action, justice. 'Ha gann saw' = good person. Left (gêra) = clumsy, difficult, ungraceful, bad. 'Gêra yegebau' = confused, perplexed person.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Kenya (Meru)",
+    "lat": 0.05,
+    "lng": 37.65,
+    "phrase": "urio / umotho",
+    "description": "Right (urio) = north, day, white clans, first wife, senior, man, superior, east, sunrise, political power, older, cultivation. Left (umotho) = south, night, black clans, co-wife, junior, woman/child, west, darkness, religious authority, younger, honey collection.",
+    "source": "Schiefenhövel 2013",
+    "type": "cosmological-dualism"
+  },
+  {
+    "name": "Tanzania (Kaguru)",
+    "lat": -6.8,
+    "lng": 36.8,
+    "phrase": "kulume / kumoso",
+    "description": "Right (kulume) = man/masculine, eating hand, strength, upstream, stable, bones/teeth, land, white, east/south, purity, cooked, initiated. Left (kumoso) = woman/feminine, defecation hand, weak, downstream, blood, water, red, west/north, pollution, uncooked, uninitiated.",
+    "source": "Schiefenhövel 2013",
+    "type": "cosmological-dualism"
+  },
+  {
+    "name": "Chile/Argentina (Mapuche)",
+    "lat": -38.7,
+    "lng": -72.6,
+    "phrase": "man / welel",
+    "description": "Right (man) = good, life, day, health, ancestral spirits, shaman, afterworld, abundance, east, summer, sun, yellow/white, priest, man, senior, gift-giver. Left (welel) = evil, death, night, sickness, evil spirits, sorcerer, underworld, poverty, west, winter, moon, black, woman/child, subordinate, gift-receiver, incest.",
+    "source": "Schiefenhövel 2013",
+    "type": "cosmological-dualism"
+  },
+  {
+    "name": "Sweden",
+    "lat": 59.3,
+    "lng": 18.1,
+    "phrase": "höger / vänster",
+    "description": "Right (höger) = comfortable, pleasing. Left (vänster, from 'vän' = friend, helpful) = EUPHEMISM used to avoid negativity. Old High German 'winistar' = friend. No strong negative associations.",
+    "source": "Schiefenhövel 2013",
+    "type": "euphemistic"
+  },
+  {
+    "name": "Norway",
+    "lat": 59.9,
+    "lng": 10.7,
+    "phrase": "høyre / venstre",
+    "description": "Right (høyre) = comfortable. Left (venstre) = from euphemism 'friend'. No strong negative associations in modern usage.",
+    "source": "Schiefenhövel 2013",
+    "type": "euphemistic"
+  },
+  {
+    "name": "Denmark",
+    "lat": 55.7,
+    "lng": 12.6,
+    "phrase": "højre / venstre",
+    "description": "Right (højre) = comfortable. Left (venstre) = neutral/euphemistic. BUT: 'kejthåndet', 'avethåndet', 'kejtet' = clumsy, awkward; 'avet' (dialect) = clumsy, wrong.",
+    "source": "Schiefenhövel 2013",
+    "type": "euphemistic"
+  },
+  {
+    "name": "Ancient Greece",
+    "lat": 37.98,
+    "lng": 23.73,
+    "phrase": "δεξιός / αριστερός",
+    "description": "Right (δεξιός) = acceptable, sure, favorable, dexterous, handshake, promise. Left (αριστερός, from 'αριστός' = 'the best', EUPHEMISM) = bringing bad omen, clumsy, wrong. Euphemism shows awareness of stigma.",
+    "source": "Schiefenhövel 2013",
+    "type": "euphemistic"
+  },
+  {
+    "name": "Romania",
+    "lat": 44.4,
+    "lng": 26.1,
+    "phrase": "dreapta / stânga",
+    "description": "Right (dreapta) = straight, vertical, correct, just cause, justice, 'the law'. Left (stânga, from Latin 'stancus' = tired, weak) = weak, clumsy, awkwardness.",
+    "source": "Schiefenhövel 2013",
+    "type": "strong-negative"
+  },
+  {
+    "name": "Uganda (Lugbara)",
+    "lat": 3.4,
+    "lng": 31.2,
+    "phrase": "(terms not recorded)",
+    "description": "Right = male, home, earth, genealogy, daytime, light, sexual intercourse, good, moral authority. Left = female, menstrual blood, bush, sky, myth, night/darkness, sexual abstinence, evil, amoral, chaos, power.",
+    "source": "Schiefenhövel 2013",
+    "type": "cosmological-dualism"
+  },
+  {
+    "name": "Namibia (Himba)",
+    "lat": -19.3,
+    "lng": 13.4,
+    "phrase": "ko-koma-nene / -muho-",
+    "description": "Right (ko-koma-nene) = high/high-ranked, old/older, elder, leaders, to fit, to suffice. Left (-muho-) = (no specific negative meaning recorded).",
+    "source": "Schiefenhövel 2013",
+    "type": "hierarchical"
+  }
+]

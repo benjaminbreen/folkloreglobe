@@ -1,0 +1,110 @@
+[
+  {
+    "name": "Italy",
+    "lat": 41.9,
+    "lng": 12.5,
+    "phrase": "fare le fiche",
+    "description": "A hand gesture where the thumb is placed between the index and middle fingers. Used for protection against evil eye (malocchio) or as an obscene gesture depending on context.",
+    "source": "Traditional Italian gesture",
+    "type": "protective"
+  },
+  {
+    "name": "Portugal",
+    "lat": 38.7,
+    "lng": -9.1,
+    "phrase": "figa",
+    "description": "Traditional protective gesture against evil eye. Also sold as amulets.",
+    "source": "Portuguese folk tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Brazil",
+    "lat": -15.8,
+    "lng": -47.9,
+    "phrase": "figa",
+    "description": "Widely used protective gesture inherited from Portuguese tradition. Often worn as jewelry or amulet for good luck.",
+    "source": "Brazilian folk tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Turkey",
+    "lat": 41.0,
+    "lng": 28.9,
+    "phrase": "nazar boncuğu (related)",
+    "description": "While not exactly mano fico, similar protective hand gestures exist against the evil eye (nazar).",
+    "source": "Turkish tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Greece",
+    "lat": 37.9,
+    "lng": 23.7,
+    "phrase": "fico gesture",
+    "description": "Ancient protective gesture documented in classical antiquity. Used against evil eye and malevolent forces.",
+    "source": "Ancient Greek tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Spain",
+    "lat": 40.4,
+    "lng": -3.7,
+    "phrase": "higa",
+    "description": "Traditional gesture and amulet for protection. Common in Spanish folklore.",
+    "source": "Spanish folk tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Sicily",
+    "lat": 37.5,
+    "lng": 14.0,
+    "phrase": "manu fica",
+    "description": "Particularly strong tradition in Sicily for warding off the evil eye. Often depicted in ancient amulets.",
+    "source": "Sicilian tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Ancient Rome",
+    "lat": 41.9,
+    "lng": 12.5,
+    "phrase": "manu fica",
+    "description": "Ancient Roman protective amulet. Archaeological evidence shows widespread use throughout Roman Empire.",
+    "source": "Roman antiquity",
+    "type": "historical"
+  },
+  {
+    "name": "Netherlands",
+    "lat": 52.4,
+    "lng": 4.9,
+    "phrase": "vijg (fig)",
+    "description": "Historical usage documented in medieval and early modern period, though less common today.",
+    "source": "Dutch historical records",
+    "type": "historical"
+  },
+  {
+    "name": "Germany",
+    "lat": 52.5,
+    "lng": 13.4,
+    "phrase": "Feige",
+    "description": "Historical gesture with documented use in medieval Germany. Now largely obsolete.",
+    "source": "German historical tradition",
+    "type": "historical"
+  },
+  {
+    "name": "Russia",
+    "lat": 55.8,
+    "lng": 37.6,
+    "phrase": "фига (figa)",
+    "description": "Traditional gesture with protective and offensive meanings. Also called 'dulya' or 'kukish'.",
+    "source": "Russian folk tradition",
+    "type": "protective"
+  },
+  {
+    "name": "Serbia",
+    "lat": 44.8,
+    "lng": 20.5,
+    "phrase": "smokva",
+    "description": "Gesture known as 'smokva' (fig), used as both protective charm and insult.",
+    "source": "Serbian tradition",
+    "type": "protective"
+  }
+]
